@@ -3,7 +3,7 @@
 A powerful meeting application that enables seamless collaboration and communication.
 
 ##View on the machine
-![Demo Image Live Photo](https://photos.google.com/search/_tra_/photo/AF1QipOkUzMm5kIz_IM4rb8GsMTo3asmwN-BnEiFcdWB)
+![Demo Image Live Photo](https://github.com/kashyapprajapat/photo/blob/main/MeetingApplicationDemo.png)
 
 
 
