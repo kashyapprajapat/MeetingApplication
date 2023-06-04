@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# My Meeting Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A powerful meeting application that enables seamless collaboration and communication.
 
-## Available Scripts
+##View on the machine
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+##kashyap your url for deply link on github
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies:
+cd Serverside 
+  --- serverside is backend part of your website where api.js is main file 
+  --- and it's start coommand to run your backend server is npm start
+cd userside
+   ---userside is frontend part of your website where app.js file is main file
+   ---and it's  start command to run your frontend server is npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Set up the environment variables:
+- Create a `.env` file in the root directory
+- Add the following variables:
+  ```
+  mongodb_url=mongodb+srv://21bcubs030:f2Ngeshacam4G21f@cluster0.kwzmsfl.mongodb.net/?retryWrites=true&w=majority
+  ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start the application:
+npm start
+---for frontend and backend
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1.Enter you id and start  & finsish time of your meeting 
+2.After 5 minutes you room is automatically lock and it is open when your meeting is finish 
+   so no one can disturb you.
 
-### Code Splitting
+## Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The application can be configured by modifying the following files:
 
-### Analyzing the Bundle Size
+- `config.js`: Update API keys, server URLs, or other global settings.
+- `styles.css`: Customize the application's styles and appearance.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+Contributions are welcome! To contribute to the project, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature`
+3. Make your changes and commit them: `git commit -m "Add your feature"`
+4. Push to the branch: `git push origin feature/your-feature`
+5. Submit a pull request.
 
-### Advanced Configuration
+Please follow our [contributing guidelines](CONTRIBUTING.md) and ensure that your code adheres to our coding conventions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
+This project is licensed under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Acknowledgements
 
-### `npm run build` fails to minify
+- [Bootstrap](https://getbootstrap.com/)
+- [Socket.io](https://socket.io/)
+- [FontAwesome](https://fontawesome.com/)
+- [React](https://reactjs.org/)
+- [Express](https://expressjs.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+To add a photo or image in your README.md file, you can use Markdown syntax. Here's how you can do it:
+
+Ensure that the image you want to include is accessible and hosted on a public server or available in your project repository.
+
+Use the following Markdown syntax to add the image:
+
+markdown
+Copy code
+![Alt Text](image-url)
+Replace Alt Text with a descriptive alternative text for the image, which will be displayed if the image fails to load. Replace image-url with the URL or relative path to the image file.
+
+If the image is hosted on the web, provide the direct URL. For example:
+
+markdown
+Copy code
+![Logo](https://example.com/images/logo.png)
+If the image is located within your project directory, use a relative path. For example:
+
+markdown
+Copy code
+![Logo](images/logo.png)
+Make sure to adjust the path or URL based on the location of your image file.
+
+Save the README.md file and commit the changes to your project repository.
+
+When rendered, the Markdown image syntax will display the specified image in your README.md file.
+
+Note: It's good practice to provide alternative text for accessibility purposes, so ensure to replace Alt Text with a descriptive text that conveys the content and purpose of the image.

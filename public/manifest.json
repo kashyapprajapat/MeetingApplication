@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "My Meeting App",
+  "name": "Meeting App",
+  "description": "A powerful meeting application for seamless collaboration and communication.",
   "icons": [
     {
       "src": "favicon.ico",
